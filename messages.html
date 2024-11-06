@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/w3.js"></script>
+    <script src="js/pwd_handler.js"></script>
+</head> 
+<body>
+    <div class="wrapper">
+        <h1>Messages</h1>
+        <header>Messages from Pooh and Eeyore</header>
+        <section>
+            <span>
+                It is not completely hopeless. It turns out that Eeyore and Pooh left some messages for Christopher.
+                <br>
+                <br>
+                Please listen carefully.
+                <br>
+                <br>
+                This is the message from Eeyore:
+                <br>
+                <br>
+                <audio controls>
+                    <source src="assets/eeyore.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <br>
+                <br>
+                This is the message from Pooh received on 02.11.2024:
+                <br>
+                <br>
+                <audio controls>
+                    <source src="assets/pooh.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <br>
+                <br>
+                <br>
+                Can you figure out where Winnie-the-Pooh is and most important where is he going?
+                <br>
+                <br>
+                Pleas type his destination below.
+            </span>
+        </section>
+        <textbox>
+            <input type="text" class="line", placeholder="PASSWORD", onkeyup="handlePwd(this, 399339376, 'thanks.html')">
+        </textbox>
+    </div>
+</body>
+</html>
