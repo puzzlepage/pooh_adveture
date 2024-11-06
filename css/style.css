@@ -1,0 +1,116 @@
+/**************************************
+STATIC LAYOUT CSS
+**************************************/
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  header {
+      width: 960px;
+  }
+  
+  nav, section{
+    display: flex;
+    align-items: center;
+    float: left;
+  }
+
+  textbox {
+    display: inline-block;
+    /* float: left; */
+  }
+  
+  nav {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  section {
+    width: 960px;
+    min-height: 540px
+  }
+  
+  textbox {
+    width: 480px;
+  }
+  
+  /**************************************
+  CSS TO MAKE THE EXAMPLE LOOK PRETTY
+  **************************************/
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #21201E;
+    color: #FFF;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0;
+  }
+  
+  header,
+  nav,
+  section,
+  textbox {
+    border: 1px solid rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+
+  textbox {
+    padding: 10px 0;
+  }
+  
+  nav, section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .line {
+    display: block;
+    margin: auto;
+    border: none;
+    color: #FFF;
+    background: transparent;
+    text-align: center;
+    border-bottom: 1px #FFF;
+    padding: 5px 2px 0 2px;
+  }
+  
+  .line:focus { 
+    outline: none;
+    border-color: #51CBEE;
+  }
+
+  span {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+  .dot {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dotred {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(226, 11, 11);
+    border-radius: 50%;
+    display: inline-block;
+  }
